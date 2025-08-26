@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+}
+.container{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color:blue;
+    padding: 20px;
+    height: fit-content;
+}
+input {
+    width: 100%;
+    padding:  12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+}
+select {
+    width: 100%;
+    padding:  12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+button {
+    width: 100%;
+    padding:  12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 50px;
+    background-color:white;
+}
+th {
+    background-color:gray;
+}
+h1 {
+    text-align: center;
+}
+button:hover {
+    background-color: #e4e2e2;
+}
+.red-background {
+    background-color: Red;
+    color: white;
+}

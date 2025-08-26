@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <form action="" id="form">
+        <h1>Form Inputmaster Dan Stock Barang</h1>
+        <label for="kode-produk">Kode Produk</label>
+        <input type="text" name="kode-produk" id="kode-produk" value="MD-01" readonly>
+        <label for="nama-barang">Nama Barang</label>
+        <input type="text" name="nama-produk" id="nama-produk" placeholder="Masukan nama barang yang diinginkan">
+        <label for="harga-produk">Harga Produk</label>
+        <input type="text" name="harga-produk" id="harga-produk" placeholder="Masukan harga produk">
+        <label for="satuan">Satuan</label>
+        <select name="satuan" id="satuan">
+            <option value="gelas">Gelas</option>
+            <option value="plastik">Plastik</option>
+        </select>
+        <label for="kategori">Kategori</label>
+        <select name="kategori" id="kategori">
+            <option value="jus">Jus</option>
+            <option value="minuman-dingin">Minuman Dingin</option>
+        </select>        
+        <label for="url">Url Gambar</label>
+        <input type="url" name="url" id="url" placeholder="www.image.com">
+        <label for="stok-awal">Stok Awal</label>
+        <input type="number" name="stok-awal" id="stok-awal" placeholder="Stok awal barang">
+        <button type="button" onclick="saveForm()">Submit</button>
+    </form>
+    <br><br>
+    <table id="produktabel">
+        <h1>Tabel Stok Barang </h1>
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Kode Produk</th>
+            <th>Nama Produk</th>
+            <th>Harga Produk</th>
+            <th>Satuan</th>
+            <th>Kategori  Produk</th>
+            <th>Gambar Produk</th>
+            <th>Stok  Produk</th>
+            <th>Perubahan</th>
+        </tr>
+    </thead>
+        <tbody></tbody>
+    </table>
+    </div>
+
+    <script src="function.js"></script>
+</body>
+</html>
